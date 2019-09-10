@@ -1,0 +1,109 @@
+---
+title: "What Is Machine Learning?"
+author: "Ahmad Mobin"
+date: "10-Sept-2019"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+    highlight: haddock
+    number_sections: yes
+    theme: default
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message= FALSE, warning=FALSE, options(scipen=999, digits=3)) #prints whole numbers 
+```
+
+
+#- Definition
+
+<br>
+
+<span style="color:blue"> E: experience
+
+<span style="color:blue"> T: task
+
+<span style="color:blue"> P: performance 
+
+<br>
+
+  > a computer program learns from an **experience** with respect to some **task** and **performance**
+  
+<br>
+
+*Example:*
+
+**Experience**- computer watching you label spam emails
+<br>
+**Task**- classifying emails as spam or not
+<br>
+**Performance**: how well did the computer program classify spam/not spam?
+
+<br>
+
+#- Types of ML
+
+<br>
+
+Ml algorithms can be classified as either:
+
+1- **Supervised Learning**
+
+2- **Unsupervised Learning**
+
+<br>
+
+* **S**upervised Learning --> there is **structure** to your data set
+
+* Unsupervised Learning --> there is **no** structure. Program looks for **clusters/patterns**
+
+<br>
+
+#- Supervised Learning
+
+<br>
+
+  > **REMEMBER**:  <span style="color:red"> structure in data set
+
+
+![](C:\\Users\\Ahmad_Mobin\\Desktop\\Machine Learning\\Standford_Learning\\Week1\\Supervised vs Unsupervised.png)
+
+<br>
+
+##- <span style="color:blue"> Regression
+
+<br>
+
+* Outcome is <span style="color:blue"> continuous
+
+<br>
+
+  > Example/ Predicting the price of houses 
+  
+<br>
+
+##- <span style="color:green"> Classification
+
+<br>
+
+* Outcome is <span style="color:green"> categorical
+
+<br>
+
+  > Example/ Base on the tumor size classify tumor as: i) Malignant or ii) Benign 
+  
+<br>
+
+#- Unsupervised Learning
+
+<br>
+
+  > **REMEMBER**:  <span style="color:red"> there is NO structure in data set and you want the program to find **clusters/patterns**
+
+<br>
+
+  > Example/ grouping news articles into common themes/topics. You have a bunch of articles and want to group them into common topics (ie., sports, US politics, Entertainment, etc.)
+
+
